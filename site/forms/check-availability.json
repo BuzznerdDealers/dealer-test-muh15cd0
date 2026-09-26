@@ -1,7 +1,7 @@
 {
   "id": "check-availability",
   "name": "Check availability",
-  "status": "draft",
+  "status": "live",
   "system": true,
   "surfaces": [
     "pdp",
@@ -77,5 +77,5 @@
       "scopeMode": "dynamic"
     }
   ],
-  "updatedAt": "2026-09-26T17:49:01.097Z"
+  "updatedAt": "2026-09-26T17:49:56.459Z"
 }
