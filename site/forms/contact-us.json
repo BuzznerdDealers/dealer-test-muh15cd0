@@ -1,0 +1,63 @@
+{
+  "id": "contact-us",
+  "name": "Contact Us",
+  "status": "live",
+  "submitLabel": "Submit",
+  "successMessage": "Thanks — we will be in touch shortly.",
+  "consent": {
+    "enabled": true,
+    "required": true,
+    "text": "I agree to be contacted about this enquiry."
+  },
+  "fields": [
+    {
+      "id": "f-muior93f7",
+      "type": "full_name",
+      "label": "Full name",
+      "required": false
+    },
+    {
+      "id": "f-muior4l35",
+      "type": "first_name",
+      "label": "First name",
+      "required": false
+    },
+    {
+      "id": "f-muior6qp6",
+      "type": "last_name",
+      "label": "Last name",
+      "required": false
+    },
+    {
+      "id": "f-muioqwdn2",
+      "type": "email",
+      "label": "Email",
+      "required": false
+    },
+    {
+      "id": "f-muioqygz3",
+      "type": "phone",
+      "label": "Phone",
+      "required": false
+    },
+    {
+      "id": "f-muioqzvy4",
+      "type": "number",
+      "label": "Number",
+      "required": false
+    }
+  ],
+  "notifications": [
+    {
+      "id": "n-muioru3c8",
+      "name": "Default",
+      "logic": "AND",
+      "rules": [],
+      "targetType": "role",
+      "roleId": "bznrd-owner",
+      "scopeMode": "dynamic"
+    }
+  ],
+  "confirmations": [],
+  "updatedAt": "2026-09-26T17:52:09.753Z"
+}
